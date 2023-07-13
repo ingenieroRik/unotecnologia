@@ -1,4 +1,13 @@
 
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+  }
+
 body {
   font-family: sans-serif;
   
@@ -11,7 +20,7 @@ body {
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #151515;
 
   align-items: center;
@@ -22,18 +31,21 @@ body {
   left: 0;
 }
 
-.imagenes-copiadoras{
-  margin-top: 100px;
-}
+
 .nav {
  
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items:center;
+  justify-content: space-between;
   flex-direction: row;
-
+  margin-left: 30px;
 }
-
+.barra-intermedia{
+  padding-top: 4px;
+  height: 44px;
+  color: white;
+  margin-top: 160px;
+}
 .nav-link {
   color: gray;
   text-decoration: none;
@@ -50,8 +62,7 @@ body {
   width:800px;
   height: 140px;
 }
-
-.contenedorppal {
+.contenedor-index {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -63,6 +74,19 @@ body {
   padding: 0;
   margin: 0;
   margin-top: 50px;
+}
+.contenedorppal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  height: 600px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
 }
 .contenedor1 {
   display: flex;
@@ -76,19 +100,6 @@ body {
 .paginaConstruccion {
   font-size: 4rem;
 }
-
-
-.contenedor2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #000;
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-  border-radius: 5px;
-}
-
 
 .footer {
   display: flex;
@@ -161,6 +172,9 @@ body {
     width:600px;
      height: 120px;
   }
+  .contenedorppal{
+    margin-top: -40px;
+  }
   
   .pie-menu {
     
@@ -179,17 +193,13 @@ body {
     width:300px;
      height: 90px;
   }
-  .contenedor1 {
-    font-size: 2rem;
-    flex-direction: column;
-  }
+
   .imagenes-copiadoras{
     margin-top: 700px;
   }
-  .contenedor2 {
-    flex-direction: column;
+  .contenedorppal{
+    margin-top: -80px;
   }
-
   
   .nav-menu {
     flex-direction: column;
@@ -203,32 +213,13 @@ body {
     left: 100%;
     transition: left 0.3s;
   }
-
-  .nav-menu-item {
-    line-height: 70px;
-    
+  .pie-menu {
+    margin-left: 20px;
   }
-
-  .nav-menu-link:hover,
-  .nav-menu-link_active {
-    background: none;
-    color: #83c5f7;
-  }
+ 
   
   .paginaConstruccion {
     font-size: 2rem;
   }
-  .nav-toggle {
-    display:block;
-
-  }
-
-  .nav-menu_visible {
-    left: 0;
-  }
-
-  .nav-toggle:focus:not(:focus-visible) {
-    outline: none;
-  } 
   
 }
