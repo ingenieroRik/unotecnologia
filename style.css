@@ -161,12 +161,12 @@ body {
 }
 
 
-@media (max-width: 991px){
+@media (max-width: 992px){
 
   .footer {
    
     justify-content:flex;
-    height: 200px;
+    height: 220px;
   }
   .logo{
     width:600px;
@@ -177,7 +177,7 @@ body {
   }
   
   .pie-menu {
-    
+    line-height: 30px;
     flex-direction: column; 
   }
   .paginaConstruccion {
@@ -199,6 +199,7 @@ body {
   }
   .contenedorppal{
     margin-top: -80px;
+ 
   }
   
   .nav-menu {
@@ -215,11 +216,14 @@ body {
   }
   .pie-menu {
     margin-left: 20px;
+    line-height: 40px;
   }
- 
+  .footer{
+    height: 300px;
+  }
   
   .paginaConstruccion {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
 }
