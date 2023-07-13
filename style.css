@@ -175,7 +175,9 @@ body {
   .contenedorppal{
     margin-top: -40px;
   }
-  
+  .contenedor-alquiler{
+    margin-top: 40px;
+  }
   .pie-menu {
     line-height: 30px;
     flex-direction: column; 
@@ -200,6 +202,9 @@ body {
   .contenedorppal{
     margin-top: -80px;
  
+  }
+  .contenedor-alquiler{
+    margin-top: 50px;
   }
   
   .nav-menu {
