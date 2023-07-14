@@ -64,12 +64,12 @@ body {
 }
 .contenedor-index {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   background-color: white;
   align-items: center;
   text-align: center;
-  height: 600px;
+  height: 500px;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -82,7 +82,7 @@ body {
   background-color: white;
   align-items: center;
   text-align: center;
-  height: 600px;
+  height: 500px;
   width: 100%;
   padding: 0;
   margin: 0;
